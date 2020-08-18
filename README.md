@@ -2,6 +2,9 @@
 Udemy Python for Data Science and Machine Learning Bootcamp - Final Project
 
 ## Abstract / Introduction
+LendingClub is a US peer-to-peer lending company, headquartered in San Francisco, California. It was the first peer-to-peer lender to register its offerings as securities with the Securities and Exchange Commission (SEC), and to offer loan trading on a secondary market. LendingClub is the world's largest peer-to-peer lending platform.
+
+Using historical data on loans that has information on whether or not a borrower defaulted (charge-off), we will build a model that can predict wether or nor a borrower will pay back their loan. This will allow the compnay to have an ability to predict if a new potential customer is likely to pay back the loan.
 The best "f1_score" for "class 0" of 66% was acheieved using an "Artifical Neural Network" (ANN) with random oversampling of the dataset, to mitigate against the clear imbalances in the dataset. However by focusing the predictive power of the model on the "f1_score" for "class 0" there has been compromises in the performance of the model in other areas. However as the objective of this project was focused on predicting borrower defaults, such a compromises is considered acceptable.
 
 ## Files in the repository
